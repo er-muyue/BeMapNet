@@ -131,7 +131,8 @@ class CheckPointLoader(Callback):
 
         trainer.epoch = checkpoint.get("epoch", -1) + 1
         trainer.global_step = checkpoint.get("global_step", -1) + 1
-        trainer.optimizer.load_state_dict(checkpoint["optimizer_state"])
+        if "optimizer_state" in checkpoint:
+            trainer.optimizer.load_state_dict(checkpoint["optimizer_state"])
         # resume callback
         for cb in trainer.callbacks:
             if hasattr(cb, "state_dict"):
