@@ -187,3 +187,8 @@ If you find BeMapNet/MachMap is useful in your research or applications, please 
     year={2023},
 }
 ```
+
+
+## Stars
+
+[![Stargazers over time](https://starchart.cc/er-muyue/BeMapNet.svg)](https://starchart.cc/er-muyue/BeMapNet)
