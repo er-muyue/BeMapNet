@@ -4,8 +4,9 @@
 
 #
 ### NEWS !!!
+* **`Sep. 01st, 2023`:** :pushpin: We upload our long-version paper of PivotNet on Arxiv. The code is being sorted out. **[Paper](https://arxiv.org/pdf/2308.16477)**
 * **`Aug. 23rd, 2023`:** :rocket: :rocket: :rocket: The official implementation of our BeMapNet is released now. Enjoy it!
-* **`Jul. 14th, 2023`:** :clap: Our **PivotNet** is accepted by ICCV 2023 ! The preprint paper is in progress.
+* **`Jul. 14th, 2023`:** :clap: Our **PivotNet** is accepted by ICCV 2023 ! ~~The preprint paper is in progress.~~
 * **`Jun. 18th, 2023`:** :bulb: The **Innovation-Award** of the AD-Challenge goes to our MachMap Solution ! **[Tech-Report](https://arxiv.org/abs/2306.10301)**
 * **`May. 26th, 2023`:** :trophy: Our team win the **Championship** of the CVPR23 *Online HD Map Construction Challenge* ! **[Leaderboard](https://opendrivelab.com/AD23Challenge.html#online_hd_map_construction)**
 * **`May. 16th, 2023`:** :pushpin: We upload our long-version paper with detailed supplementary material on Arxiv. **[Paper](https://arxiv.org/pdf/2306.09700)**
@@ -185,6 +186,15 @@ If you find BeMapNet/MachMap is useful in your research or applications, please 
     title={MachMap: End-to-End Vectorized Solution for Compact HD-Map Construction}, 
     journal={arXiv preprint arXiv:2306.10301},
     year={2023},
+}
+
+@misc{ding2023pivotnet,
+      title={PivotNet: Vectorized Pivot Learning for End-to-end HD Map Construction}, 
+      author={Wenjie Ding and Limeng Qiao and Xi Qiu and Chi Zhang},
+      year={2023},
+      eprint={2308.16477},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
